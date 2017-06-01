@@ -1,7 +1,8 @@
 # Simple libasound use
 + Advanced linux sound architectur
 + like command: arecord, aplay
-+ `arecord -f dat `
++ `arecord -D plughw:1,0 -d 5 -f dat test.wav`
++ `aplay test.wav`
 
 ## Usage
 + `sudo apt install libasound2-dev`
